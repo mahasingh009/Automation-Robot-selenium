@@ -23,7 +23,7 @@ Search book name
    sleep  6s
 
 Count total books displayed on each page
-   ${count} =  Get Element Count    //img[@class='s-access-image cfMarker']
+   ${count} =  Get Element Count    //span[@class='a-size-medium a-color-base a-text-normal']
    should be true   ${count} >= 16
 
 
